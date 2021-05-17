@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0066eb;
+    background: linear-gradient(to bottom right, #0066eb 0%, #000000 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+input {
+    background-color: rgba(150,150,255,.15);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+                0 15px 40px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    transition:.3s;
+}
+input:hover, input:focus{
+    transition:.3s;
+    background-color: rgba(150,150,255,.35);
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+input:focus {
+    outline: none;
+}
+
+.card {
+    background-color: rgba(150,150,255,.15);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+                0 15px 40px rgba(0, 0, 0, 0.4);
+    display: flex;
+    padding: 3rem;
+    max-width: 800px;
+}
+
+.avatar {
+    border: 5px solid #032e66;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 0 10px #0066eb,
+                0 0 20px #0066eb,
+                0 0 30px #0066eb,
+                0 0 40px #0066eb,
+                0 0 50px #0066eb;
+}
+
+.user-info {
+    color: #eee;
+    margin-left: 2rem;
+}
+
+.user-info a{
+    text-decoration: none;
+    color:white;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo {
+    background-color: rgba(150,150,255,.15);
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    transition: .3s;
+}
+.repo:hover{
+    transition: .3s;
+    transform:translateY(-5px);
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    color:white;
+    opacity: .3;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
