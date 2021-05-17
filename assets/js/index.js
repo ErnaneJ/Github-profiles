@@ -4,7 +4,7 @@ const main = document.getElementById("main");
 const form = document.getElementById("form");
 const search = document.getElementById("search");
 
-// getUser("ernanej");
+//getUser("ernanej"); //adicionar umn busca padrão ao carregar a página?
 
 async function getUser(username) {
     const resp = await fetch(APIURL + username);
