@@ -29,6 +29,7 @@ Design based on a <a href="https://www.uidesigndaily.com/posts/photoshop-profile
 
 <a href="https://ernanej.github.io/Github-profiles/">Click here</a> to access the page.
 </p>
+
 ---
 <p align="center">
 Developed with ❤ by <a target="_blank" href="https://ernanej.github.io/my-linktree/">Ernane Ferreira</a>. 👋🏻<br/>
